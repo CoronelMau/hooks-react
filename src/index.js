@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { CouterProvider } from './Context';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CouterProvider>
+
+      <App />
+    </CouterProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
