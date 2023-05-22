@@ -13,6 +13,11 @@ export const CouterProvider = ({ children }) => {
     },
     resta() {
       setCount(val => val - 1)
+    },
+    user: {
+      status: "Online",
+      jwt: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJzdGF0dXMiOiJvbmxpbmUifQ.lCg6KWiP0-MKaAbusLwDCqOxfYiumSKeLXmKI13m4nc",
+      theme: "light"
     }
   }
 
